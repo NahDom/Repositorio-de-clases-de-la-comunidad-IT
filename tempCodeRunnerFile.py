@@ -1,3 +1,3 @@
-def cuenta(cantidad,dias):
-    return f"Se venden por dia: {cantidad/dias:,.2f} paquetes de yerba"
-print(cuenta(2920,365))
+texto = str(input("esto sera texto"))
+texto1 = "hola "+ texto
+print(texto1)

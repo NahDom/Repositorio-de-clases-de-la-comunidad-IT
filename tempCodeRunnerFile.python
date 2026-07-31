@@ -1,0 +1,15 @@
+print(" ==== | Bienvenido | ==== \n")
+print("\n")
+torta_peso = int(input("Ingrese peso en gramos: \n"))
+relleno = input("Ingrese el relleno que desea ponerle: \n").lower
+
+match (torta_peso, relleno):
+    case (peso, _) if peso <= 2500:
+        print("No podemos darte nada")
+    case (2500, 'frutas'):
+        print("valor de 5500")
+    case(peso, 'frutas') if peso > 2500:
+        print("Precio de 8000")
+    case(peso, _) if peso > 2500:
+        print("Precio de 7500")        
+        
